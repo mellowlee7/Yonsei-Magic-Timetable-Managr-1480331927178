@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Yonsei Magic Timetable Managr
+  host: ymtmanager
+  disk_quota: 1024M
+  services:
+  - Yonsei Magic Timetable Managr-cloudantNoSQLDB
